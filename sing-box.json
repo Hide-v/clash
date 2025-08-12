@@ -778,7 +778,7 @@
     },
     {
       "tag": "香港-故转",
-      "type": "fallback",
+      "type": "urltest",
       "outbounds": [
         "香港-手选",
         "香港-智选"
@@ -818,7 +818,7 @@
     },
     {
       "tag": "台湾-故转",
-      "type": "fallback",
+      "type": "urltest",
       "outbounds": [
         "台湾-手选",
         "台湾-智选"
@@ -858,7 +858,7 @@
     },
     {
       "tag": "日本-故转",
-      "type": "fallback",
+      "type": "urltest",
       "outbounds": [
         "日本-手选",
         "日本-智选"
@@ -898,7 +898,7 @@
     },
     {
       "tag": "新加坡-故转",
-      "type": "fallback",
+      "type": "urltest",
       "outbounds": [
         "新加坡-手选",
         "新加坡-智选"
@@ -938,7 +938,7 @@
     },
     {
       "tag": "韩国-故转",
-      "type": "fallback",
+      "type": "urltest",
       "outbounds": [
         "韩国-手选",
         "韩国-智选"
@@ -978,7 +978,7 @@
     },
     {
       "tag": "美国-故转",
-      "type": "fallback",
+      "type": "urltest",
       "outbounds": [
         "美国-手选",
         "美国-智选"
@@ -1018,7 +1018,7 @@
     },
     {
       "tag": "英国-故转",
-      "type": "fallback",
+      "type": "urltest",
       "outbounds": [
         "英国-手选",
         "英国-智选"
@@ -1058,7 +1058,7 @@
     },
     {
       "tag": "Gemini-故转",
-      "type": "fallback",
+      "type": "urltest",
       "outbounds": [
         "台湾-手选",
         "台湾-智选",
@@ -1068,7 +1068,7 @@
     },
     {
       "tag": "其他-故转",
-      "type": "fallback",
+      "type": "urltest",
       "outbounds": [
         "其他-手选",
         "其他-智选"
