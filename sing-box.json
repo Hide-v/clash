@@ -65,9 +65,10 @@
       {"clash_mode": "global", "outbound": "GLOBAL"},
       {"rule_set": "geosite-chatgpt", "outbound": "ChatGPT"},
       {"rule_set": "geosite-youtube", "outbound": "YouTube"},
+      {"rule_set": "geosite-gemini", "outbound": "Gemini"},
+      {"domain_keyword": "gemini", "outbound": "Gemini"}
       {"rule_set": "geosite-google", "outbound": "Google"},
       {"rule_set": "geosite-github", "outbound": "Github"},
-      {"rule_set": "geosite-gemini", "outbound": "Gemini"},
       {"rule_set": "geosite-twitter", "outbound": "Twitter(X)"},
       {"rule_set": "geosite-microsoft", "outbound": "Microsoft"},
       {"rule_set": "geosite-apple", "outbound": "Apple"},
@@ -83,7 +84,6 @@
       {"rule_set": "geoip-telegram", "outbound": "Telegram"},
       {"rule_set": "geoip-netflix", "outbound": "Netflix"},
       {"rule_set": "geoip-cn", "outbound": "直连"},
-      {"domain_keyword": "gemini", "outbound": "Gemini"}
     ],
     "rule_set": [
       {"tag": "geosite-chatgpt", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/openai.srs", "download_detour": "直连"},
