@@ -21,6 +21,7 @@
     {"tag": "ChatGPT", "type": "selector", "outbounds": ["所有-手动", "所有-自动", "香港-自动", "日本-自动", "新加坡-自动", "美国-自动", "台湾-自动", "韩国-自动", "加拿大-自动", "直连"]},
     {"tag": "Gemini", "type": "selector", "outbounds": ["Gemini-自动","所有-手动", "所有-自动", "香港-自动", "日本-自动", "新加坡-自动", "美国-自动", "台湾-自动", "韩国-自动", "加拿大-自动", "直连"]},
     {"tag": "Github", "type": "selector", "outbounds": ["所有-手动", "所有-自动", "香港-自动", "日本-自动", "新加坡-自动", "美国-自动", "台湾-自动", "韩国-自动", "加拿大-自动", "直连"]},
+    {"tag": "Video", "type": "selector", "outbounds": ["所有-手动", "所有-自动", "香港-自动", "日本-自动", "新加坡-自动", "美国-自动", "台湾-自动", "韩国-自动", "加拿大-自动", "直连"]},
     {"tag": "Reddit", "type": "selector", "outbounds": ["所有-手动", "所有-自动", "香港-自动", "日本-自动", "新加坡-自动", "美国-自动", "台湾-自动", "韩国-自动", "加拿大-自动", "直连"]},
     {"tag": "Telegram", "type": "selector", "outbounds": ["所有-手动", "所有-自动", "香港-自动", "日本-自动", "新加坡-自动", "美国-自动", "台湾-自动", "韩国-自动", "加拿大-自动", "直连"]},
     {"tag": "YouTube", "type": "selector", "outbounds": ["所有-手动", "所有-自动", "香港-自动", "日本-自动", "新加坡-自动", "美国-自动", "台湾-自动", "韩国-自动", "加拿大-自动", "直连"]},
@@ -83,7 +84,9 @@
       {"rule_set": "geoip-telegram", "outbound": "Telegram"},
       {"rule_set": "geoip-netflix", "outbound": "Netflix"},
       {"rule_set": "geoip-cn", "outbound": "直连"},
-      {"domain_keyword": "gemini", "outbound": "Gemini"}
+      {"domain_keyword": "gemini", "outbound": "Gemini"},
+      {"domain_keyword": "emby", "outbound": "Video"},
+      {"domain_keyword": "xiaobaotv", "outbound": "Video"},
     ],
     "rule_set": [
       {"tag": "geosite-chatgpt", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/openai.srs", "download_detour": "直连"},
