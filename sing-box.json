@@ -87,7 +87,8 @@
       {"domain_keyword": "gemini", "outbound": "Gemini"},
       {"domain_keyword": "emby", "outbound": "Video"},
       {"domain_keyword": "xiaobaotv", "outbound": "Video"},
-      {"domain_keyword": "pub", "outbound": "Video"}
+      {"domain_keyword": "pub", "outbound": "Video"},
+      {"domain_keyword": "missav", "outbound": "所有-自动"}
     ],
     "rule_set": [
       {"tag": "geosite-chatgpt", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/openai.srs", "download_detour": "直连"},
