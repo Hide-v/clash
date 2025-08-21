@@ -89,7 +89,9 @@
       {"domain_keyword": "xiaobaotv", "outbound": "Video"},
       {"domain_keyword": "pub", "outbound": "Video"},
       {"domain_keyword": "missav", "outbound": "所有-自动"},
-      {"domain_keyword": "myavlive", "outbound": "所有-自动"}
+      {"domain_keyword": "myavlive", "outbound": "所有-自动"},
+      {"domain_keyword": "jmapiproxy", "outbound": "所有-自动"},
+      {"domain_keyword": "jmdanjonproxy", "outbound": "所有-自动"}
     ],
     "rule_set": [
       {"tag": "geosite-chatgpt", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/openai.srs", "download_detour": "直连"},
