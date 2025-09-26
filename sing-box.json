@@ -48,7 +48,7 @@
     {"tag": "韩国-自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["kr|KR|kr|韩国|韩|Korea"]}]},
     {"tag": "加拿大-手动", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["ca|CA|ca|加拿大|加|Canada"]}]},
     {"tag": "加拿大-自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["ca|CA|ca|加拿大|加|Canada"]}]},
-    {"tag": "Gemini-自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["tw|TW|tw|台湾|台|Taiwan|🇺🇸|US|us|美国|美|United States"]}]},
+    {"tag": "Gemini-自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["tw|TW|tw|台湾|台|Taiwan"]}]},
     {"tag": "其他-手动", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "exclude", "keywords": ["更新|显示|网站|流量|地址|剩余|过期|免费|时间|有效|Traffic|ExpireDate|GB|Expire Date"]}]},
     {"tag": "其他-自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "exclude", "keywords": ["更新|显示|网站|流量|地址|剩余|过期|免费|时间|有效|Traffic|ExpireDate|GB|Expire Date"]}]},
     {"tag": "所有-手动", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "exclude", "keywords": ["更新|显示|网站|流量|地址|剩余|过期|免费|时间|有效|Traffic|ExpireDate|GB|Expire Date"]}]},
