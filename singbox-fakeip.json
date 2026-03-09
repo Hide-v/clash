@@ -479,7 +479,7 @@
       ]
     },
     {
-      "tag": "Youtube",
+      "tag": "YouTube",
       "type": "selector",
       "outbounds": [
         "直连",
@@ -574,7 +574,7 @@
       ]
     },
     {
-      "tag": "Paypal",
+      "tag": "PayPal",
       "type": "selector",
       "outbounds": [
         "香港-自动",
@@ -630,7 +630,7 @@
       ]
     },
     {
-      "tag": "Onedrive",
+      "tag": "OneDrive",
       "type": "selector",
       "outbounds": [
         "直连",
@@ -699,6 +699,7 @@
     }
   ],
   "route": {
+    "default_domain_resolver": "local",
     "rules": [
       {
         "action": "sniff",
