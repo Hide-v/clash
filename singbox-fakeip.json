@@ -64,7 +64,7 @@
   "outbounds": [
     {
       "tag": "香港-自动",
-      "type": "url-test",
+      "type": "urltest",
       "outbounds": [
         "{all}"
       ],
@@ -106,7 +106,7 @@
     },
     {
       "tag": "台湾-自动",
-      "type": "url-test",
+      "type": "urltest",
       "outbounds": [
         "{all}"
       ],
@@ -148,7 +148,7 @@
     },
     {
       "tag": "新加坡-自动",
-      "type": "url-test",
+      "type": "urltest",
       "outbounds": [
         "{all}"
       ],
@@ -190,7 +190,7 @@
     },
     {
       "tag": "日本-自动",
-      "type": "url-test",
+      "type": "urltest",
       "outbounds": [
         "{all}"
       ],
@@ -232,7 +232,7 @@
     },
     {
       "tag": "韩国-自动",
-      "type": "url-test",
+      "type": "urltest",
       "outbounds": [
         "{all}"
       ],
@@ -274,7 +274,7 @@
     },
     {
       "tag": "美国-自动",
-      "type": "url-test",
+      "type": "urltest",
       "outbounds": [
         "{all}"
       ],
@@ -316,7 +316,7 @@
     },
     {
       "tag": "英国-自动",
-      "type": "url-test",
+      "type": "urltest",
       "outbounds": [
         "{all}"
       ],
@@ -358,7 +358,7 @@
     },
     {
       "tag": "所有-自动",
-      "type": "url-test",
+      "type": "urltest",
       "outbounds": [
         "{all}"
       ],
@@ -388,7 +388,7 @@
     },
     {
       "tag": "Gemini-自动",
-      "type": "url-test",
+      "type": "urltest",
       "outbounds": [
         "{all}"
       ],
