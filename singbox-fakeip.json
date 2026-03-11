@@ -577,6 +577,7 @@
       "tag": "PayPal",
       "type": "selector",
       "outbounds": [
+        "直连",
         "香港-自动",
         "香港-手动",
         "台湾-自动",
