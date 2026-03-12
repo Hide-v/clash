@@ -11,7 +11,7 @@
       },
       "url": "http://192.168.9.200:3001/CKg3abstVnOeRpm1aB5G/download/collection/2in1?target=sing-box",
       "exclude": "官网|剩余|流量|套餐|免费|订阅|全球直连|到期时间|GB|Expire Date|Traffic|ExpireDate",
-      "download_detour": "🎯 全球直连",
+      "download_detour": "直连",
       "update_interval": "12h"
     }
   ],
