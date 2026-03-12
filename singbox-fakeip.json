@@ -827,7 +827,7 @@
         "tag": "geosite-gemini",
         "type": "remote",
         "format": "binary",
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/blob/sing/geo/geosite/google-gemini.srs",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google-gemini.srs",
         "download_detour": "直连"
       },
       {
